@@ -5,32 +5,38 @@
 ![The Brotli size of this reset](https://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=brotli&label=Brotli%20Size)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A tiny little reset that you can use as the basis of your CSS projects. You can read a [breakdown of it here](https://hankchizljaw.com/wrote/a-modern-css-reset/).
+A tiny little reset that you can use as the basis of your CSS projects. You can
+read
+a [breakdown of it here](https://hankchizljaw.com/wrote/a-modern-css-reset/).
 
 ## Installation
 
 NPM:
 
 ```console
-npm install --save-dev modern-css-reset
+npm install --save-dev @punkfairie/modern-css-reset
 ```
 
 Yarn:
 
 ```console
-yarn add modern-css-reset
+yarn add @punkfairie/modern-css-reset
 ```
 
-Unpkg CDN: 
+Unpkg CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+
+<link rel="stylesheet"
+    href="https://unpkg.com/@punkfairie/modern-css-reset/dist/reset.min.css"/>
 ```
 
-jsDelivr CDN: 
+jsDelivr CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
+
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@punkfairie/modern-css-reset/dist/reset.min.css"/>
 ```
 
 ### Manual installation
@@ -38,7 +44,7 @@ jsDelivr CDN:
 First, let's clone this repository:
 
 ```console
-git clone https://github.com/hankchizljaw/modern-css-reset.git
+git clone https://github.com/punkfairie/modern-css-reset.git
 ```
 
 Then, go to `modern-css-reset` directory:
